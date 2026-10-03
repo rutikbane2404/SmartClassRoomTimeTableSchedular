@@ -1,0 +1,32 @@
+# Eclipse
+.metadata/
+.settings/
+.classpath
+.project
+
+# Java / Build
+bin/
+build/
+target/
+
+# Tomcat
+temp/
+work/
+wtpwebapps/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local configuration / secrets
+.env
+*.local
+*.properties.local
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+<welcome-file-list>
+    <welcome-file>jsp/auth/Login.jsp</welcome-file>
+</welcome-file-list>
+
+<servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>controller.LoginServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>SubjectServlet</servlet-name>
+    <servlet-class>controller.SubjectServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>SubjectServlet</servlet-name>
+    <url-pattern>/SubjectServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>FacultyServlet</servlet-name>
+    <servlet-class>controller.FacultyServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>FacultyServlet</servlet-name>
+    <url-pattern>/FacultyServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>TimeTableServlet</servlet-name>
+    <servlet-class>controller.TimeTableServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>TimeTableServlet</servlet-name>
+    <url-pattern>/TimeTableServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>StudentServlet</servlet-name>
+    <servlet-class>controller.StudentServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>StudentServlet</servlet-name>
+    <url-pattern>/StudentServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>ClassroomServlet</servlet-name>
+    <servlet-class>controller.ClassroomServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>ClassroomServlet</servlet-name>
+    <url-pattern>/ClassroomServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>AnalyticsServlet</servlet-name>
+    <servlet-class>controller.AnalyticsServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>AnalyticsServlet</servlet-name>
+    <url-pattern>/AnalyticsServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>RoomAnalyticsServlet</servlet-name>
+    <servlet-class>controller.RoomAnalyticsServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>RoomAnalyticsServlet</servlet-name>
+    <url-pattern>/RoomAnalyticsServlet</url-pattern>
+</servlet-mapping>
+
+</web-app>
