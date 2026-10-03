@@ -109,7 +109,7 @@ The project follows the MVC architecture.
                     └─────────────────────┘
 
 
-🛠️ Technologies Used
+🛠️ Technologies Used:
 Frontend
 JSP
 HTML5
@@ -140,7 +140,7 @@ Git
 GitHub
 
 
-📂 Project Structure
+📂 Project Structure:
 
 SmartClassRoomTimeTableSchedular
 │
@@ -171,7 +171,7 @@ SmartClassRoomTimeTableSchedular
 └── README.md
 
 
-🗄️ Database
+🗄️ Database:
 The project uses MySQL database:
 smartclassroomtimetableschedular
 The database schema is provided in:
@@ -192,7 +192,7 @@ Notifications
 Foreign-key relationships are used to connect timetable records with classes, subjects, faculty members, and classrooms.
 
 
-🔐 Configuration
+🔐 Configuration:
 Database and email credentials are not stored directly in the source code.
 The application reads them from environment variables
 Database
@@ -202,7 +202,7 @@ EMAIL_USERNAME=your_email_address
 EMAIL_PASSWORD=your_gmail_app_password
 
 
-🚀 How to Run
+🚀 How to Run:
 1. Requirements
 Install:
 Java JDK 21
@@ -235,7 +235,7 @@ http://localhost:8080/
 The exact application context path depends on the Eclipse/Tomcat deployment configuration.
 
 
-📊 Analytics Modules
+📊 Analytics Modules:
 The project includes analytical features that convert timetable data into useful information.
 Faculty Workload Analysis
 Analyzes the number of lectures assigned to faculty members and displays workload information using charts.
@@ -249,7 +249,7 @@ Automated Analytical Reports
 Combines timetable and utilization information into structured reports that can be viewed, printed, or exported.
 
 
-📄 PDF & Email Integration
+📄 PDF & Email Integration:
 The system supports PDF generation for timetable information.
 Generated PDF reports can also be sent through email using JavaMail.
 Email credentials are configured through environment variables rather than being stored in the source code.
@@ -265,7 +265,7 @@ Database foreign-key relationships
 Form validation
 
 
-🎯 Project Objectives
+🎯 Project Objectives:
 The major objectives of the project are:
 Reduce manual timetable management effort.
 Centralize academic scheduling information.
@@ -277,7 +277,7 @@ Generate useful analytical reports.
 Support PDF export and email-based report sharing.
 
 
-🔮 Future Scope
+🔮 Future Scope:
 Possible future enhancements include:
 AI-based timetable generation
 Constraint-based scheduling
@@ -292,11 +292,11 @@ Google Calendar integration
 Integration with institutional ERP systems
 
 
-👨‍💻 Developer
+👨‍💻 Developer:
 Rutik Sudhir Bane
 MCA Student
 Mumbai University
 
 
-📜 License
+📜 License:
 This project is developed for academic and educational purposes.
