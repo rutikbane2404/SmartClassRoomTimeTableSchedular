@@ -255,6 +255,69 @@ Generated PDF reports can also be sent through email using JavaMail.
 Email credentials are configured through environment variables rather than being stored in the source code.
 
 
+## 📸 Screenshots
+
+### 🔐 Authentication
+
+#### Admin Login
+![Admin Login](Screenshots/Admin%20Login.png)
+
+#### Faculty Login
+![Faculty Login](Screenshots/Faculty%20Login.png)
+
+#### Student Login
+![Student Login](Screenshots/Student%20Login.png)
+
+---
+
+### 📊 Dashboards
+
+#### Admin Dashboard
+![Admin Dashboard](Screenshots/Admin%20Dashboard.png)
+
+#### Faculty Dashboard
+![Faculty Dashboard](Screenshots/Faculty%20Dashboard.png)
+
+#### Student Dashboard
+![Student Dashboard](Screenshots/Student%20dashboard.png)
+
+---
+
+### 📅 Timetable Management
+
+#### Weekly Timetable
+![Weekly Timetable](Screenshots/Weekly%20TT.png)
+
+---
+
+### 📈 Analytics
+
+#### Faculty Workload Analytics
+![Faculty Workload Analytics](Screenshots/Screenshot%202026-05-06%20000427.png)
+
+#### Room Utilization Analytics
+![Room Utilization Analytics](Screenshots/Rooms%20Usage%20analytics.png)
+
+#### Time Utilization Analytics
+![Time Utilization Analytics](Screenshots/Time%20Usage%20analytics.png)
+
+#### Utilization Charts
+![Utilization Charts](Screenshots/Utilization%20Charts.png)
+
+---
+
+### 📄 Reports & PDF
+
+#### Analytical Report
+![Analytical Report](Screenshots/Fianal%20Analytical%20report.png)
+
+#### PDF Export
+![PDF Feature](Screenshots/PDF%20Feature.png)
+
+#### Email Integration
+![Email Integration](Screenshots/Email%20feature.png)
+
+
 🔒 Security Considerations
 The project uses:
 Session-based login
